@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-body{
-    padding: 5rem 0rem 5rem 25rem;
-}
-
 img {
  display: block;
  max-width: 100%;
@@ -165,5 +161,4 @@ img {
 @media screen and (min-width:768px) {
     body{margin:0rem 0rem 5rem 25rem;}
 }
-
 
