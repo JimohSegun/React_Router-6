@@ -1,0 +1,164 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+ display: block;
+ max-width: 100%;
+ height: auto;
+}
+
+.home{
+    background-color: #e5dcd1;
+    width: 548px;
+    min-height: 100vh;
+}
+
+.home_h2{
+  font-size: 32px;
+  font-weight: bold; 
+  margin: 1.5rem 0rem 0rem 1.5rem;
+  margin-bottom: 1rem;
+  width: 494px;
+}
+
+.Home_p1{
+   margin-bottom: 1rem;
+   width: 494px;
+   margin-left:1.5rem;
+}
+
+.home_p2{
+    margin-bottom: 1rem;
+    width: 494px;
+    margin-left: 1.5rem;
+  
+}
+
+.destination{
+    border-radius: 10px;
+    height: 190px;
+    width: 494px;
+    background-color:#FFCC8D ;
+    display: flex;
+    flex-flow: column;
+    padding: 1.8rem 4rem 0rem 1.8rem ;
+    margin:1rem 1.5rem 0rem 1.5rem ;
+    
+}
+
+.destination_p{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.destination_p_two{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.btn{
+    background-color: #161616;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: 174px;
+    height: 49px;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.about{
+    width:548px;
+    height: 386px;
+    color: white;
+    background:url("./Images/mountain.png") center/cover no-repeat fixed;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    min-height: 100vh;
+}
+
+.about_h2{
+    color: white;
+    font-size: 36px;
+    font-weight:bolder ;
+    margin-top: 3rem;
+    width: 494px;
+    
+}
+
+.about_p{
+   margin-top: 1.5rem;
+   width: 494px;
+}
+
+.about_second_p{
+    margin-bottom: 2rem; 
+    width: 494px;
+}
+
+.btn_about{
+    font-size: 15px;
+    color: white;
+    width: 494.3px;
+    height: 49px;
+    background-color: #FF8C38;
+    font-weight: bold;
+    margin-bottom: 3rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    padding-bottom:5px;
+    padding-top: 12px;
+    text-decoration: none;
+}
+.header_link{
+    background-color: #f3d4b0;
+    width: 548px;
+    height: 116px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav_about{
+    margin-right: 1.5rem;
+    font-weight: 500;
+}
+
+.van_life{
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 1rem;
+    text-decoration: none;
+}
+
+.footer_van{
+    background-color: #252525;
+    width: 548px;
+    height: 74px;
+    color:#AAAAAA ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (min-width:768px) {
+    body{margin:0rem 0rem 5rem 25rem;}
+}
+
