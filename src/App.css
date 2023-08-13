@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body{
+ min-height: 100vh;
+}
+
 img {
  display: block;
  max-width: 100%;
@@ -13,7 +17,6 @@ img {
 .home{
     background-color: #e5dcd1;
     width: 548px;
-    min-height: 100vh;
 }
 
 .home_h2{
@@ -45,8 +48,7 @@ img {
     display: flex;
     flex-flow: column;
     padding: 1.8rem 4rem 0rem 1.8rem ;
-    margin:1rem 1.5rem 0rem 1.5rem ;
-    
+    margin:1rem 1.5rem 0rem 1.5rem ;   
 }
 
 .destination_p{
@@ -82,7 +84,7 @@ img {
     display: flex;
     align-items: center;
     flex-flow: column;
-    min-height: 100vh;
+    height: 100vh;
 }
 
 .about_h2{
